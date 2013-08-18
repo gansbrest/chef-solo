@@ -9,10 +9,10 @@ Mostly you use deploy.sh command. You can also read [Mastering chef-solo: deploy
 
 Options:
 
-* -f - first boot ( uses one ssh connection string over the default one, at the moment hardcoded to the srcipt, **adjust for your use case** or provide more a switch which will set host dynamically.
+* -f - first boot ( uses one ssh connection string over the default one, at the moment hardcoded to the srcipt, **adjust for your use case** or provide  a switch which will set host dynamically.
 
 * -h fqdn - sets the hostname, before chef run
 
 `./deploy.sh -f -h mix.domain.com`
 
-** YOU MAY NEED TO ADJUST SOME VALUES IN THE SCRIPT TO FIT YOUR OWN NEEDS! **
+**YOU MAY NEED TO ADJUST SOME VALUES IN THE SCRIPT TO FIT YOUR OWN NEEDS!**
